@@ -1,5 +1,21 @@
+@font-face {
+  font-family: 'My Font';
+  src: url('./fonts/Crimson_Text/CrimsonText-Regular.ttf');
+}
+
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.App-pages {
+  flex-grow: 1;
+}
+
+.App-footer {
+  flex-shrink: 0;
 }
 
 .App-logo {

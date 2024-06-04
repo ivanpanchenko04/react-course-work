@@ -1,0 +1,25 @@
+.footer {
+    background-color: #ccc;
+    color: #000;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-item {
+    margin-bottom: 10px;
+}
+
+.footer-link {
+    color: #000;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}

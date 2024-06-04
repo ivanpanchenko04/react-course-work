@@ -1,0 +1,26 @@
+.header {
+    background-color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.header .navbar-brand,
+.header .nav-link, .header .navbar-brand:hover,
+.header .nav-link:hover {
+    color: #fff;
+}
+
+.header .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 5px 20px 5px 20px;
+    cursor: auto;
+}
+
+.header .nav-link {
+    font-size: 1rem;
+    margin-right: 20px;
+}

@@ -1,0 +1,77 @@
+.event-row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    font-family: 'My Font';
+}
+
+.event-card {
+    border: 1px solid #ddd;
+    padding: 16px;
+    margin: 8px 0;
+    text-align: left;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    height: 380px;
+}
+
+.event-image {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 16px;
+}
+
+.event-artist {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.event-name {
+    font-size: 1rem;
+    font-weight: normal;
+    margin-bottom: 8px;
+}
+
+.event-city,
+.event-location,
+.event-date,
+.event-price {
+    font-size: 0.875rem;
+    margin-bottom: 8px;
+}
+
+.event-location {
+    display: inline-block;
+    width: 50%;
+}
+
+.event-date {
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+}
+
+.event-price {
+    display: inline-block;
+    width: 50%;
+}
+
+.event-button {
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+}
+
+.event-button button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.event-button button:hover {
+    background-color: #444;
+}
