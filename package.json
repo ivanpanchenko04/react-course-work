@@ -2,6 +2,7 @@
   "name": "react-course-work",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ivanpanchenko04.github.io/react-course-work/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
